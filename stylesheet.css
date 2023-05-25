@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    font-weight: bold;
+    font-size: 32px;
+    height: 40px;
+}
+
+body {
+    line-height: 30px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.ship {
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.position {
+    display: flex;
+}
+.position .circle {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border: 3px solid #00BFFF;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    margin-left: 250px;
+}
+.position .profile-position{
+    margin: 0 0 0 20px;
+    padding: 0;
+    line-height: 70px;
+    margin-left: 50px;
+}
+ul {
+    padding-left: 0;
+}
+li {
+    list-style: none;
+    font-size: 30px;
+}
+.bold {
+    font-size: 45px;
+}
+.two-things {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.experience {
+    font-size: 30px;
+    width: 40%;
+    height: 400px;
+}
+.Yamamoto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
